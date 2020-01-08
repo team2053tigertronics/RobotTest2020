@@ -1,0 +1,14 @@
+See file:///C:/Users/chdes/Documents/GitHub/RobotTester/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling ControlFeederWheels.cpp successful.
+
+compiling ControlIntakeWheels.cpp successful.
+
+compiling OI.cpp successful.
+
+compiling RobotContainer.cpp successful.
+
+compiling IntakeSubsystem.cpp successful.
+
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/chdes/Documents/GitHub/RobotTester/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
