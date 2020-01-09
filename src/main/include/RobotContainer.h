@@ -8,8 +8,9 @@
 #pragma once
 
 #include <frc2/command/Command.h>
-
+#include <frc/XboxController.h>
 #include "commands/ControlIntakeWheels.h"
+#include "commands/ControlFeederWheels.h"
 #include "subsystems/IntakeSubsystem.h"
 
 /**
@@ -24,8 +25,16 @@ class RobotContainer {
  public:
   RobotContainer();
 
- private:
-  void ConfigureButtonBindings();
+  IntakeSubsystem m_intake;
 
+  ControlIntakeWheels m_controlIntakeWheels;
+  ControlFeederWheels m_controlFeederWheels;
+
+ private:
+ 
+  frc::XboxController driverController{0};
+	frc::XboxController operatorController{1};
+
+  void ConfigureButtonBindings();
 };
 
